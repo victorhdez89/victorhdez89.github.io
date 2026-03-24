@@ -5,19 +5,20 @@ project:
 website:
   title: ""
   navbar:
+    title: "Victor Hernandez Martinez"
+    logo-href: "#top"
     pinned: true
-    left:
-      - text: "Victor Hernandez Martinez"
-        href: "#top"
-      - text: CV
-        href: "#top"
-      - text: Research
-        href: "#research"
-      - text: Policy
-        href: "#policy"
-      - text: Teaching
-        href: "#teaching"
     search: false
+    left:
+      - text: "CV"
+        href: files/Victor_Hernandez_Martinez_CV.pdf
+        target: _blank
+      - text: "Research"
+        href: "#research"
+      - text: "Policy"
+        href: "#policy"
+      - text: "Teaching"
+        href: "#teaching"
 
 format:
   html:
@@ -26,7 +27,3 @@ format:
     toc: false
     smooth-scroll: true
     link-external-newwindow: true
-    grid:
-      body-width: 1180px
-      margin-width: 0px
-      gutter-width: 1.25rem
