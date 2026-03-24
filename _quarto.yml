@@ -3,20 +3,28 @@ project:
   output-dir: docs
 
 website:
-  title: "Victor Hernandez Martinez"
+  title: ""
   navbar:
+    pinned: true
     left:
-      - href: index.qmd
-        text: Home
-      - href: research.qmd
-        text: Research
-      - href: teaching.qmd
-        text: Teaching
-      - href: cv.qmd
-        text: CV
+      - text: Home
+        href: "#top"
+      - text: Research
+        href: "#research"
+      - text: Policy
+        href: "#policy"
+      - text: Teaching
+        href: "#teaching"
+    search: false
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    grid:
+      body-width: 1180px
+      margin-width: 0px
+      gutter-width: 1.25rem

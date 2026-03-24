@@ -1,11 +1,409 @@
 body {
-  font-size: 18px;
+  font-size: 15px;
+  line-height: 1.62;
+  color: #1f2937;
+  background-color: #fcfcfb;
 }
 
-.navbar-brand {
+#quarto-content main.content,
+main.content {
+  max-width: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.navbar {
+  border-bottom: 1px solid #e8e8e8;
+  background-color: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(8px);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
   font-weight: 600;
 }
 
-h1, h2, h3 {
-  margin-top: 1.2em;
+.navbar-nav .nav-link {
+  color: #4b5563;
+  font-size: 0.96rem;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #111827;
+}
+
+.hero {
+  padding-top: 0;
+  padding-bottom: 0.8rem;
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+.hero-name-row {
+  margin: 1.75rem 0 1.35rem 0;
+  padding: 0;
+}
+
+.hero-name {
+  font-size: 3rem;
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  margin: 0;
+  padding: 0;
+  color: #111827;
+  font-weight: 700;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 255px minmax(0, 1.6fr) minmax(300px, 0.95fr);
+  gap: 2rem;
+  align-items: start;
+  margin-top: 0 !important;
+}
+
+.hero-grid > * {
+  margin-top: 0 !important;
+  align-self: start;
+}
+
+.hero-photo {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 0 !important;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 250px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 18px;
+  display: block;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0 10px 30px rgba(17, 24, 39, 0.05);
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #374151;
+  margin-top: 0 !important;
+  margin-bottom: 0.6rem;
+  font-weight: 600;
+}
+
+.hero-main,
+.hero-main p,
+.hero-main > div {
+  max-width: none;
+}
+
+.hero-main {
+  font-size: 1.05rem;
+  margin-top: 0 !important;
+}
+
+.hero-main p {
+  color: #374151;
+  margin-bottom: 0.62rem;
+}
+
+.btn-hero {
+  display: inline-block;
+  padding: 0.72rem 1.05rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.15s ease;
+}
+
+.btn-hero:hover {
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.btn-hero-primary {
+  background-color: #111827;
+  color: #ffffff;
+  border: 1px solid #111827;
+}
+
+.btn-hero-primary:hover {
+  color: #ffffff;
+}
+
+.btn-hero-card {
+  width: 100%;
+  text-align: center;
+  margin: 0.15rem 0 0.1rem 0;
+}
+
+.hero-card {
+  background-color: #ffffff;
+  border: 1px solid #e7e7e7;
+  border-radius: 18px;
+  padding: 0.95rem 1rem;
+  box-shadow: 0 10px 30px rgba(17, 24, 39, 0.05);
+}
+
+.hero-card p {
+  margin-bottom: 0.52rem;
+}
+
+.hero-card p:last-child {
+  margin-bottom: 0;
+}
+
+.hero-card-label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #6b7280;
+  margin-bottom: 0.18rem;
+  font-weight: 700;
+}
+
+section {
+  scroll-margin-top: 88px;
+}
+
+h2 {
+  font-size: 1.7rem;
+  margin-top: 0.95rem;
+  margin-bottom: 0.5rem;
+  border-top: 0;
+  border-bottom: 1px solid #ececec;
+  padding-top: 0.65rem;
+  padding-bottom: 0.2rem;
+}
+
+h2:first-of-type {
+  padding-top: 0.65rem;
+}
+
+h3 {
+  font-size: 1.02rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.35rem;
+  color: #6b7280;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 0.16rem;
+}
+
+p,
+ul,
+ol {
+  margin-bottom: 0.75rem;
+}
+
+a {
+  color: #0f4c81;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.research-list {
+  margin-top: 0.12rem;
+}
+
+.research-item {
+  padding: 0.3rem 0 0.36rem 0;
+  border-top: 0;
+}
+
+.research-item:last-child {
+  padding-bottom: 0.14rem;
+}
+
+.research-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.08rem 0.5rem;
+  margin-bottom: 0.04rem;
+}
+
+.research-title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: #111827;
+  margin-bottom: 0;
+}
+
+.research-links-inline {
+  font-size: 0.88rem;
+  line-height: 1.3;
+}
+
+.research-meta {
+  color: #4b5563;
+  margin-bottom: 0.02rem;
+}
+
+.research-journal {
+  color: #374151;
+  margin-bottom: 0.02rem;
+}
+
+.research-sep {
+  color: #9ca3af;
+  margin: 0 0.28rem;
+}
+
+.research-note {
+  font-size: 0.88rem;
+  color: #6b7280;
+  margin-bottom: 0;
+  line-height: 1.35;
+}
+
+.research-note-standalone {
+  margin-top: -0.02rem;
+  margin-bottom: 0.04rem;
+}
+
+.research-note + .research-note {
+  margin-top: -0.08rem;
+}
+
+.publication-head {
+  gap: 0.08rem 0.45rem;
+}
+
+.publication-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.publication-journal-inline {
+  font-size: 1rem;
+  line-height: 1.35;
+  color: #374151;
+}
+
+.publication-journal-inline strong {
+  font-weight: 700;
+}
+
+.policy-head {
+  gap: 0.08rem 0.45rem;
+}
+
+.policy-series-inline {
+  font-size: 1rem;
+  line-height: 1.35;
+  color: #374151;
+}
+
+.policy-series-inline strong {
+  font-weight: 700;
+}
+
+.teaching-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.06rem 0.75rem;
+  align-items: baseline;
+}
+
+.teaching-row-primary {
+  margin-bottom: 0.02rem;
+}
+
+.teaching-row-secondary {
+  color: #4b5563;
+}
+
+.teaching-class {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.teaching-course,
+.teaching-university,
+.teaching-role,
+.teaching-term,
+.teaching-extra {
+  font-size: 0.94rem;
+}
+
+.hero-card a,
+.research-links-inline a,
+.publication-journal-inline a,
+.policy-series-inline a,
+.research-meta a,
+.teaching-extra a,
+p a,
+li a {
+  text-underline-offset: 0.14em;
+}
+
+main.content {
+  padding-bottom: 4rem;
+}
+
+@media (max-width: 1000px) {
+  .hero-grid {
+    grid-template-columns: 200px minmax(0, 1fr);
+    gap: 1.4rem;
+  }
+
+  .hero-side {
+    grid-column: 1 / -1;
+  }
+
+  .profile-image {
+    max-width: 200px;
+  }
+
+  .hero-name {
+    font-size: 3.2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .hero {
+    padding-top: 2.2rem !important;
+  }
+
+  .hero-name-row {
+    margin-bottom: 0.3rem !important;
+  }
+
+  .hero-name {
+    font-size: 2.75rem;
+  }
+
+  .hero-photo {
+    justify-content: flex-start;
+  }
+
+  .profile-image {
+    max-width: 220px;
+  }
+
+  .publication-journal-inline,
+  .publication-title,
+  .policy-series-inline {
+    font-size: 0.98rem;
+  }
+
+  .teaching-row {
+    flex-direction: column;
+    gap: 0.02rem;
+  }
 }
