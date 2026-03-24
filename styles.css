@@ -35,7 +35,7 @@ main.content {
 
 .hero {
   padding-top: 0;
-  padding-bottom: 0.8rem;
+  padding-bottom: 0.74rem;
   margin-bottom: 0;
   border-bottom: 0;
 }
@@ -76,7 +76,7 @@ main.content {
 
 .profile-image {
   width: 100%;
-  max-width: 250px;
+  max-width: 255px;
   aspect-ratio: 4 / 5;
   object-fit: cover;
   border-radius: 18px;
