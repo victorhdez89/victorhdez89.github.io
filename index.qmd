@@ -1,0 +1,15 @@
+---
+title: "Home"
+---
+
+## Victor Hernandez Martinez
+
+Welcome to my website.
+
+I am an economist. This site will include my research, teaching materials, and CV.
+
+### Quick links
+
+- [Research](research.html)
+- [Teaching](teaching.html)
+- [CV](cv.html)
