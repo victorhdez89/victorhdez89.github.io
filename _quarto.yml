@@ -27,3 +27,7 @@ format:
     toc: false
     smooth-scroll: true
     link-external-newwindow: true
+    grid:
+      body-width: 1180px
+      margin-width: 0px
+      gutter-width: 1.25rem
