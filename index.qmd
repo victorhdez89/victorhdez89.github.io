@@ -42,34 +42,6 @@ I received my Ph.D. in Economics from the University of Rochester. Before that, 
 
 ## Research {#research}
 
-### Working Papers
-
-::: {.research-list}
-::: {.research-item}
-<div class="research-head">
-<div class="research-title">An Anatomy of Reemployment Wage Duration Dependence and Its Relationship with the Unemployment Insurance System</div>
-<div class="research-links-inline"><a href="https://drive.google.com/file/d/1zVLUTs1vukEvwDpIf9seTWgH_T61aop-/view?usp=sharing">Current Version</a></div>
-</div>
-<div class="research-note research-note-standalone">Previously circulated as <em>Estimating Duration Dependence on Re-employment Wages When Reservation Wages Are Binding</em>.</div>
-<div class="research-meta">With <a href="https://sites.google.com/view/kaixin-liu/">Kaixin Liu</a> and Richard Grice</div>
-:::
-
-::: {.research-item}
-<div class="research-head">
-<div class="research-title">When Trade Compresses: The Impact of Liberalization on Wage Inequality</div>
-<div class="research-links-inline"><a href="https://drive.google.com/file/d/10rm1IPBJdvSN2ND_VdeE9ArTJbqH79wd/view?usp=sharing">Current Version</a></div>
-</div>
-<div class="research-meta">With <a href="https://nicjkoz.com/">Nicholas Kozeniauskas</a> and <a href="https://romanmerga.com/">Roman Merga</a></div>
-:::
-
-::: {.research-item}
-<div class="research-head">
-<div class="research-title">Positive Selection During the Unemployed Job Search: Nature of Heterogeneity and Limited Predictability</div>
-</div>
-<div class="research-meta">With <a href="https://sites.google.com/view/kaixin-liu/">Kaixin Liu</a></div>
-:::
-:::
-
 ### Publications
 
 ::: {.research-list}
@@ -102,6 +74,49 @@ I received my Ph.D. in Economics from the University of Rochester. Before that, 
 <div class="publication-journal-inline"><a href="https://doi.org/10.1002/sta4.302"><strong><em>STAT</em></strong> (2020), 9(1): e302</a></div>
 </div>
 <div class="research-meta">With Aaron B. Wagner, <a href="https://www.elainelhill.com/">Elaine L. Hill</a>, Sean E. Ryan, Ziteng Sun, Grace Deng, Sourbh Bhadane, Peter Wu, Dongmei Li, Ajay Anand, Jayadev Acharya, and David S. Matteson</div>
+:::
+:::
+
+### Working Papers
+
+::: {.research-list}
+::: {.research-item}
+<div class="research-head">
+<div class="research-title">An Anatomy of Reemployment Wage Duration Dependence and Its Relationship with the Unemployment Insurance System</div>
+<div class="research-links-inline"><a href="https://drive.google.com/file/d/1zVLUTs1vukEvwDpIf9seTWgH_T61aop-/view?usp=sharing">Current Version</a></div>
+</div>
+<div class="research-note research-note-standalone">Previously circulated as <em>Estimating Duration Dependence on Re-employment Wages When Reservation Wages Are Binding</em>.</div>
+<div class="research-meta">With <a href="https://sites.google.com/view/kaixin-liu/">Kaixin Liu</a> and Richard Grice</div>
+:::
+
+::: {.research-item}
+<div class="research-head">
+<div class="research-title">When Trade Compresses: The Impact of Liberalization on Wage Inequality</div>
+<div class="research-links-inline"><a href="https://drive.google.com/file/d/10rm1IPBJdvSN2ND_VdeE9ArTJbqH79wd/view?usp=sharing">Current Version</a></div>
+</div>
+<div class="research-meta">With <a href="https://nicjkoz.com/">Nicholas Kozeniauskas</a> and <a href="https://romanmerga.com/">Roman Merga</a></div>
+:::
+:::
+
+### Work in Progress
+::: {.research-list}
+::: {.research-item}
+<div class="research-head">
+<div class="research-title">Positive Selection During the Unemployed Job Search: Nature of Heterogeneity and Limited Predictability</div>
+</div>
+<div class="research-meta">With <a href="https://sites.google.com/view/kaixin-liu/">Kaixin Liu</a></div>
+
+::: {.research-item}
+<div class="research-head">
+<div class="research-title">From Pink Slips to Polling Stations: Mass Layoff Announcements and Voter Turnout</div>
+</div>
+<div class="research-meta">With <a href="https://sites.google.com/site/pawelmkrolikowski/">Pawel Krolikowski</a> and <a href="https://andrewhmccallum.com/">Andrew McCallum</a></div>
+:::
+
+::: {.research-item}
+<div class="research-title">Labor Market Tightness and Racial Earnings Gaps</div>
+</div>
+<div class="research-meta">With <a href="https://www.vittoriadicandia.com/">Vittoria Dicandia</a></div>
 :::
 :::
 
