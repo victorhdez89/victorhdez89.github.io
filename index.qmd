@@ -10,7 +10,7 @@ pagetitle: "Victor Hernandez Martinez"
 
 ::: {.hero-grid}
 ::: {.hero-photo}
-![](images/VictorHernandez_HR_closeup.PNG){.profile-image}
+![](images/VictorHernandez_HR_closeup_JPG.jpg){.profile-image}
 :::
 
 ::: {.hero-main}
