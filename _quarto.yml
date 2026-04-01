@@ -4,6 +4,8 @@ project:
 
 website:
   title: ""
+  site-url: "https://www.vichdezmtnez.com"
+  google-analytics: "G-JG3DVC6ZCQ"
   navbar:
     title: "Victor Hernandez Martinez"
     logo-href: "#top"
