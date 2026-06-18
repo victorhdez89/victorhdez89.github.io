@@ -238,6 +238,10 @@ a:hover {
   margin-bottom: 0;
 }
 
+.research-title .pub-status {
+  color: #740207bb !important;
+}
+
 .research-links-inline {
   font-size: 0.88rem;
   line-height: 1.3;
@@ -406,4 +410,6 @@ main.content {
     flex-direction: column;
     gap: 0.02rem;
   }
+
+  
 }
