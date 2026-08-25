@@ -95,6 +95,14 @@ I received my Ph.D. in Economics from the University of Rochester. Before that, 
 </div>
 <div class="research-meta">With <a href="https://nicjkoz.com/">Nicholas Kozeniauskas</a> and <a href="https://romanmerga.com/">Roman Merga</a></div>
 :::
+
+::: {.research-item}
+<div class="research-head">
+<div class="research-title">From Pink Slips to Polling Stations: The Electoral Consequences of Mass-Layoff Announcements</div>
+<div class="research-links-inline"><a href="https://drive.google.com/file/d/14SkwUxtvhFdpsMrAIgqntaq5xN7ZcYQO/view?usp=sharing">Current Version</a></div>
+</div>
+<div class="research-meta">With <a href="https://sites.google.com/site/pawelmkrolikowski">Pawel Krolikowski</a> and <a href="https://andrewhmccallum.com/">Andrew McCallum</a></div>
+:::
 :::
 
 ### Work in Progress
@@ -104,12 +112,6 @@ I received my Ph.D. in Economics from the University of Rochester. Before that, 
 <div class="research-title">Positive Selection During the Unemployed Job Search: Nature of Heterogeneity and Limited Predictability</div>
 </div>
 <div class="research-meta">With <a href="https://sites.google.com/view/kaixin-liu/">Kaixin Liu</a></div>
-
-::: {.research-item}
-<div class="research-head">
-<div class="research-title">From Pink Slips to Polling Stations: Mass Layoff Announcements and Voter Turnout</div>
-</div>
-<div class="research-meta">With <a href="https://sites.google.com/site/pawelmkrolikowski/">Pawel Krolikowski</a> and <a href="https://andrewhmccallum.com/">Andrew McCallum</a></div>
 :::
 
 ::: {.research-item}
